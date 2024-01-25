@@ -6,7 +6,7 @@ function App() {
   const currentYear = new Date();
   return (
     <>
-      <header>
+      <header className="relative">
         <nav className="flex w-full justify-between items-center pr-4 pl-4 gap-8 bg-gray-200 text-black p-4 fixed">
           <h1 className="text-3xl font-bold font-['arial']">
             <Link to="/">#VANLIFE</Link>
@@ -21,7 +21,7 @@ function App() {
           </ul>
         </nav>
       </header>
-      <footer className="bg-gray-800 text-gray-200 w-full p-4 left-0 bottom-0 relative text-center">
+      <footer className="bg-gray-800 text-gray-200 w-full p-4 left-0 bottom-0 absolute text-center">
         <p> Ⓒ {currentYear.getFullYear()} #VANLIFE -Nitheeshmk</p>
       </footer>
       <Routes>
