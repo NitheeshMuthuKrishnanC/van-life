@@ -21,7 +21,7 @@ function App() {
           </ul>
         </nav>
       </header>
-      <footer className="bg-gray-800 text-gray-200 w-full p-4 left-0 bottom-0 fixed text-center">
+      <footer className="bg-gray-800 text-gray-200 w-full p-4 left-0 bottom-0  text-center">
         <p> Ⓒ {currentYear.getFullYear()} #VANLIFE -Nitheeshmk</p>
       </footer>
       <Routes>

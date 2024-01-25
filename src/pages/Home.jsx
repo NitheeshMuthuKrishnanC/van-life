@@ -17,7 +17,7 @@ export const Home = () => {
           <h1 className="font-sans text-6xl text-start ml-4">
             You got the travel plans, we got the travel vans.
           </h1>
-          <p className="font-sans text-lg mt-8 text-start ml-2">
+          <p className="font-sans text-lg mt-8 text-start ml-4">
             Add adventure to your life by joining the #vanlife movement. Rent
             the perfect van to make your perfect road trip.
           </p>
