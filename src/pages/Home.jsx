@@ -14,7 +14,7 @@ export const Home = () => {
     <>
       <div style={containerStyle}>
         <div className="text-center text-white mt-40 flex justify-center flex-col items-center">
-          <h1 className="font-sans text-6xl text-start ml-2">
+          <h1 className="font-sans text-6xl text-start ml-4">
             You got the travel plans, we got the travel vans.
           </h1>
           <p className="font-sans text-lg mt-8 text-start ml-2">
